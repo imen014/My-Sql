@@ -1,0 +1,49 @@
+Bien sûr, voici un exercice basé sur un scénario réel de gestion d'une bibliothèque, 
+avec des questions pour vous aider à identifier et à gérer les relations entre les tables.
+
+**Scénario : Système de Gestion de Bibliothèque**
+
+Vous développez un système de gestion de bibliothèque pour une bibliothèque locale. 
+La bibliothèque souhaite informatiser la gestion de ses livres, de ses membres (lecteurs),
+ des emprunts et des retours de livres.
+
+**Tables à créer :**
+
+1. "Livres" : Stocke des informations sur les livres, telles que le titre, l'auteur, l'éditeur, 
+l'année de publication, etc.
+
+2. "Membres" : Enregistre les détails des membres de la bibliothèque, tels que le nom, l'adresse,
+ le numéro de téléphone, etc.
+
+3. "Emprunts" : Enregistre les emprunts de livres par les membres. Cette table devrait contenir 
+des informations sur la date d'emprunt et la date de retour prévue.
+
+**Questions :**
+
+1. Quelles sont les entités principales dans ce scénario et quelles sont les tables correspondantes 
+que vous devriez créer ?
+
+2. Comment modélisez-vous la relation entre la table "Livres" et la table "Membres" pour suivre 
+les emprunts de livres par les membres ? Quels attributs ou clés étrangères sont nécessaires ?
+
+3. Comment gérez-vous la relation entre la table "Emprunts" et les tables "Livres" et "Membres" ? 
+Quels sont les attributs clés dans la table "Emprunts" ?
+
+4. Si un membre peut emprunter plusieurs livres à la fois, comment gérez-vous cette relation 
+dans votre modèle de base de données ?
+
+5. Quelles contraintes d'intégrité devriez-vous mettre en place pour vous assurer que les emprunts
+ respectent les règles de la bibliothèque, telles que la limite de temps d'emprunt et l'intégrité 
+des données ?
+
+6. Envisagez-vous de créer des index sur certaines colonnes pour optimiser les performances 
+de recherche, par exemple, pour rechercher rapidement les livres empruntés par un membre donné 
+ou les livres disponibles ?
+
+7. Pouvez-vous identifier d'autres relations potentielles entre les tables ou d'autres attributs
+ nécessaires pour ce système de gestion de bibliothèque ?
+
+Ce scénario vous aidera à réfléchir aux relations entre les tables, aux contraintes d'intégrité 
+et à la modélisation de données pour un système de gestion de bibliothèque réel. Une fois que 
+vous avez répondu à ces questions, vous pouvez commencer à créer un schéma de base de données
+ complet en utilisant un outil de modélisation de bases de données.

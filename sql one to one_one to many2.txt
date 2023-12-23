@@ -1,0 +1,62 @@
+Je comprends que vous souhaitez vous concentrer uniquement sur les relations one-to-one 
+et one-to-many, ainsi que sur l'utilisation de la commande ALTER TABLE. Voici une série
+ d'exercices qui se concentrent sur ces aspects :
+
+**Exercice 1 : Création de la Base de Données**
+
+Créez une nouvelle base de données appelée "GestionEcole".
+
+**Exercice 2 : Relation One-to-One**
+
+1. Créez une table "Élève" avec les colonnes suivantes :
+   - IDElève (clé primaire)
+   - Nom
+   - Prénom
+
+2. Créez une table "CarteID" avec les colonnes suivantes :
+   - IDCarte (clé primaire)
+   - NuméroCarte
+   - DateExpiration
+
+3. Utilisez la commande ALTER TABLE pour établir une relation one-to-one entre "Élève"
+ et "CarteID" en ajoutant une clé étrangère appropriée.
+
+**Exercice 3 : Relation One-to-Many**
+
+1. Ajoutez une table "Classe" avec les colonnes suivantes :
+   - IDClasse (clé primaire)
+   - NomClasse
+
+2. Modifiez la table "Élève" en ajoutant une colonne "IDClasse" (clé étrangère référençant 
+la table "Classe") pour établir une relation one-to-many entre les élèves et les classes.
+
+**Exercice 4 : Modification de la Structure de Table**
+
+1. Utilisez la commande ALTER TABLE pour ajouter une colonne "DateNaissance" à la table "Élève" 
+pour enregistrer la date de naissance de chaque élève.
+
+2. Utilisez la commande ALTER TABLE pour supprimer la colonne "DateExpiration" de la table 
+"CarteID".
+
+**Exercice 5 : Autre Modification de la Structure de Table**
+
+1. Utilisez la commande ALTER TABLE pour ajouter une colonne "Niveau" à la table "Classe" 
+pour indiquer le niveau de chaque classe (par exemple, "Première année", "Deuxième année", etc.).
+
+2. Utilisez la commande ALTER TABLE pour renommer la colonne "NomClasse" de la table "Classe" 
+en "NomNiveau".
+
+**Exercice 6 : Suppression d'une Relation One-to-One**
+
+Utilisez la commande ALTER TABLE pour supprimer la relation one-to-one entre "Élève" 
+et "CarteID" en supprimant la clé étrangère.
+
+**Exercice 7 : Suppression d'une Relation One-to-Many**
+
+Utilisez la commande ALTER TABLE pour supprimer la relation one-to-many entre "Élève" 
+et "Classe" en supprimant la clé étrangère.
+
+Ces exercices vous aideront à vous familiariser avec la création de bases de données, 
+la gestion de relations one-to-one et one-to-many, ainsi que l'utilisation de la commande 
+ALTER TABLE pour modifier la structure des tables SQL. N'hésitez pas à adapter ces exercices 
+en fonction de vos besoins et de votre environnement de base de données.

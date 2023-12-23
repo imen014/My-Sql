@@ -1,0 +1,102 @@
+Bien sûr, je vais vous donner la description de la base de données que vous pouvez créer pour
+ gérer une bibliothèque. Vous pourrez ensuite utiliser cette description pour créer 
+la base de données dans votre système de gestion de base de données (SGBD) MySQL.
+
+**Description de la base de données de la bibliothèque :**
+
+Cette base de données va gérer les informations relatives aux livres, aux emprunteurs,
+ aux emprunts, aux auteurs et aux genres de livres.
+
+**Tables :**
+
+1. **Livres :** Cette table contiendra des informations sur les livres disponibles 
+dans la bibliothèque, notamment l'ISBN (numéro d'identification unique du livre),
+ le titre, l'auteur, le genre, l'année de publication, etc.
+
+    - ISBN (Clé primaire)
+    - Titre
+    - Auteur
+    - Genre
+    - Année de publication
+
+2. **Emprunteurs :** Cette table stockera les détails des personnes qui empruntent des livres, 
+tels que leur ID, nom, adresse, et adresse e-mail.
+
+    - ID (Clé primaire)
+    - Nom
+    - Adresse
+    - Email
+
+3. **Emprunts :** Cette table enregistrera les emprunts de livres, avec des informations 
+sur l'ID de l'emprunt, l'ISBN du livre emprunté, l'ID de l'emprunteur, la date d'emprunt, 
+la date de retour prévue, etc.
+
+    - ID (Clé primaire)
+    - ISBN (Clé étrangère faisant référence à la table "Livres")
+    - EmprunteurID (Clé étrangère faisant référence à la table "Emprunteurs")
+    - DateEmprunt
+    - DateRetourPrevue
+
+**Relations :**
+
+- La table "Emprunts" est liée à la table "Livres" via la colonne ISBN, ce qui permet 
+de savoir quel livre est emprunté.
+
+- La table "Emprunts" est liée à la table "Emprunteurs" via la colonne EmprunteurID,
+ ce qui permet de savoir qui a emprunté le livre.
+
+**Contraintes :**
+
+- Les colonnes ID de chaque table sont définies comme des clés primaires, garantissant ainsi 
+l'unicité des valeurs dans chaque table.
+
+- Les colonnes ISBN dans la table "Emprunts" et EmprunteurID dans la table "Emprunts" sont définies 
+comme des clés étrangères, assurant l'intégrité référentielle entre les tables.
+
+**Cela constitue la description de la base de données pour votre bibliothèque.**
+ Vous pouvez maintenant créer cette base de données dans MySQL en utilisant les commandes SQL 
+que j'ai fournies précédemment, puis ajouter des données factices et exécuter des requêtes
+ pour gérer la bibliothèque.
+
+********************************************************************************
+voici les énoncés des exercices SQL :
+
+**Exercice 1 :**
+Écrivez une requête SQL qui affiche le nom de l'emprunteur, le titre du livre emprunté 
+et la date d'emprunt pour chaque emprunt. Utilisez une jointure pour relier les tables appropriées.
+
+**Exercice 2 :**
+Ajoutez une nouvelle colonne "DateRetourRéelle" à la table "Emprunts" pour enregistrer 
+la date de retour réelle des livres empruntés.
+
+**Exercice 3 :**
+Mettez à jour la table "Emprunts" pour enregistrer la date de retour réelle pour certains emprunts.
+
+**Exercice 4 :**
+Écrivez une requête SQL qui affiche le nom de l'emprunteur, le titre du livre emprunté, 
+la date d'emprunt et la date de retour réelle pour chaque emprunt. Utilisez une jointure 
+pour relier les tables appropriées.
+
+**Exercice 5 :**
+Supprimez un livre spécifique de la table "Livres" et tous les emprunts associés de la table
+ "Emprunts". Assurez-vous de gérer les contraintes d'intégrité référentielle.
+
+**Exercice 6 :**
+Écrivez une requête SQL qui affiche le nom de l'emprunteur, le titre du livre emprunté,
+ la date d'emprunt et la date de retour réelle pour tous les emprunts qui n'ont pas encore 
+été retournés (DateRetourRéelle est NULL).
+
+**Exercice 7 :**
+Utilisez ALTER TABLE pour ajouter une nouvelle colonne "Commentaire" à la table "Livres" 
+pour stocker des commentaires sur les livres.
+
+**Exercice 8 :**
+Mettez à jour la table "Livres" pour ajouter des commentaires à certains livres spécifiques.
+
+**Exercice 9 :**
+Écrivez une requête SQL qui affiche le titre du livre, le nom de l'auteur, le genre 
+et les commentaires pour chaque livre.
+
+Ces exercices vous permettront de pratiquer divers aspects de SQL, de la conception
+ de la base de données aux requêtes et aux modifications de données. Vous pouvez les résoudre 
+à votre propre rythme pour renforcer vos compétences en SQL.

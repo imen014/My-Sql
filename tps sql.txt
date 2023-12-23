@@ -1,0 +1,38 @@
+Bien sûr, voici quelques travaux pratiques (TP) basés sur des jointures SQL pour vous aider 
+à vous entraîner davantage. Vous pouvez utiliser ces TP pour appliquer vos connaissances 
+et acquérir de l'expérience en résolvant des problèmes SQL réels.
+
+**TP 1 : Base de données de magasin en ligne**
+Imaginez une base de données pour un magasin en ligne avec les tables suivantes : "Clients", 
+"Commandes", "Produits" et "Catégories de produits". Créez cette base de données et remplissez-la 
+avec des données fictives. Ensuite, réalisez les opérations SQL suivantes :
+1. Affichez les informations de base de tous les clients.
+2. Affichez les détails de toutes les commandes passées par un client spécifique.
+3. Affichez tous les produits de la catégorie "Électronique".
+4. Affichez les produits commandés par un client donné dans une commande spécifique.
+5. Trouvez le montant total dépensé par chaque client.
+
+**TP 2 : Base de données scolaire**
+Créez une base de données pour une école avec les tables suivantes : "Étudiants", "Cours", 
+"Enseignants" et "Inscriptions". Remplissez la base de données avec des données fictives. 
+Ensuite, réalisez les opérations SQL suivantes :
+1. Affichez les étudiants inscrits à un cours spécifique.
+2. Trouvez tous les cours enseignés par un enseignant donné.
+3. Affichez le nombre d'étudiants inscrits à chaque cours.
+4. Trouvez les enseignants qui n'ont aucun étudiant inscrit à leurs cours.
+5. Affichez les étudiants qui sont inscrits à au moins trois cours différents.
+
+**TP 3 : Base de données d'entreprise**
+Créez une base de données pour une entreprise avec les tables suivantes : "Employés",
+ "Départements" et "Projets". Remplissez la base de données avec des données fictives.
+ Ensuite, réalisez les opérations SQL suivantes :
+1. Affichez les employés de chaque département.
+2. Trouvez le nombre total d'employés dans l'entreprise.
+3. Affichez les employés qui travaillent sur un projet spécifique.
+4. Trouvez les départements qui n'ont aucun employé.
+5. Affichez les employés qui ne sont pas assignés à un projet.
+
+Ces TP devraient vous aider à développer vos compétences en matière de jointures SQL tout 
+en vous familiarisant avec la modélisation de bases de données. N'hésitez pas à personnaliser 
+les données et à ajouter des questions supplémentaires pour rendre les TP plus complexes 
+si vous le souhaitez. Bonne pratique !

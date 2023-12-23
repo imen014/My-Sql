@@ -1,0 +1,68 @@
+Bien sûr ! Voici quelques exercices complets pour débutants en SQL. Vous pouvez les effectuer 
+en utilisant votre propre base de données ou en créant une base de données de démonstration.
+ Chaque exercice comporte une description et une question spécifique :
+
+**Exercice 1 - Création de la base de données et des tables** :
+
+1. Créez une base de données nommée "GestionMagasin".
+2. À l'intérieur de cette base de données, créez une table "Produits" avec les colonnes suivantes :
+   - "id" (clé primaire, auto-incrémentée)
+   - "nom" (texte)
+   - "prix" (décimal)
+   - "stock" (entier)
+
+**Exercice 2 - Insertion de données** :
+
+1. Insérez au moins trois enregistrements fictifs dans la table "Produits" avec des données 
+pour chaque colonne.
+
+**Exercice 3 - Sélection de données** :
+
+1. Sélectionnez tous les produits de la table "Produits".
+2. Sélectionnez uniquement les noms et les prix des produits.
+
+**Exercice 4 - Filtrage de données** :
+
+1. Sélectionnez tous les produits dont le prix est inférieur à 20.
+2. Sélectionnez tous les produits qui sont en rupture de stock (stock égal à zéro).
+
+**Exercice 5 - Mise à jour de données** :
+
+1. Mettez à jour le prix du produit avec l'ID 1 pour le faire passer à 25.
+2. Augmentez le stock de tous les produits de 5 unités.
+
+**Exercice 6 - Suppression de données** :
+
+1. Supprimez le produit avec l'ID 2 de la table "Produits".
+
+**Exercice 7 - Jointure de données** :
+
+1. Créez une nouvelle table "Commandes" avec les colonnes suivantes :
+   - "id" (clé primaire, auto-incrémentée)
+   - "produit_id" (clé étrangère faisant référence à la table "Produits")
+   - "quantite" (entier)
+   
+2. Insérez au moins deux commandes fictives dans la table "Commandes" en utilisant les produits
+ de la table "Produits".
+
+3. Sélectionnez les détails de chaque commande, y compris le nom du produit, la quantité 
+et le prix total (quantité * prix).
+
+**Exercice 8 - Sous-requêtes** :
+
+1. Sélectionnez les produits dont le prix est inférieur à la moyenne des prix de tous les produits.
+
+**Exercice 9 - Agrégation de données** :
+
+1. Calculez la somme totale des prix de tous les produits.
+2. Trouvez le produit le moins cher dans la table.
+
+**Exercice 10 - Groupement de données** :
+
+1. Calculez la somme totale des prix pour chaque produit.
+2. Trouvez le nombre total de produits en stock pour chaque produit.
+
+Ces exercices devraient vous permettre de développer vos compétences en SQL et de vous
+ familiariser avec diverses opérations courantes que vous pouvez effectuer dans une base 
+de données. N'hésitez pas à ajuster les données et les questions en fonction de vos besoins
+ d'entraînement. Bonne pratique !

@@ -1,0 +1,92 @@
+Bien sûr, voici quelques exercices pour vous entraîner sur les relations "one-to-one" en SQL.
+ Les exercices sont basés sur une base de données hypothétique avec deux tables liées par une
+ relation "one-to-one". Vous pouvez utiliser n'importe quel système de gestion de base de données
+ que vous préférez (comme MySQL, PostgreSQL, SQLite, etc.) pour effectuer ces exercices.
+
+**Base de données :**
+
+Supposons que vous avez deux tables : "Personnes" et "Détails_Personne", liées par une relation
+ "one-to-one". La table "Personnes" contient des informations générales sur les personnes, 
+tandis que la table "Détails_Personne" contient des informations spécifiques à chaque personne.
+ Chaque entrée dans la table "Personnes" est associée à une entrée correspondante 
+dans la table "Détails_Personne" par une clé étrangère.
+
+1. **Créez les tables :** Écrivez les requêtes SQL pour créer les deux tables "Personnes" 
+et "Détails_Personne" avec les colonnes appropriées.
+
+2. **Insérez des données :** Ajoutez des données de test à vos tables pour plusieurs personnes 
+avec leurs détails correspondants. Assurez-vous que chaque personne a une entrée correspondante 
+dans la table "Détails_Personne".
+
+3. **Sélectionnez des données :** Écrivez des requêtes SQL pour sélectionner toutes les personnes 
+et leurs détails correspondants. Utilisez une jointure pour combiner les informations 
+des deux tables.
+
+4. **Mise à jour des données :** Modifiez les détails d'une personne spécifique dans la table 
+"Détails_Personne". Assurez-vous que la modification se reflète correctement dans la jointure 
+avec la table "Personnes".
+
+5. **Suppression de données :** Supprimez une personne de la table "Personnes" et assurez-vous
+ que l'entrée correspondante dans la table "Détails_Personne" est également supprimée.
+
+6. **Ajout de contraintes de clé étrangère :** Ajoutez une contrainte de clé étrangère 
+pour garantir qu'une personne dans la table "Personnes" doit avoir une entrée correspondante 
+dans la table "Détails_Personne". Essayez d'insérer une personne sans détails et vérifiez 
+comment la contrainte de clé étrangère réagit.
+
+7. **Modification de la relation :** Supprimez la contrainte de clé étrangère et changez
+ la relation entre les tables de "one-to-one" à "many-to-one". Modifiez ensuite les données 
+pour refléter cette nouvelle relation.
+
+8. **Rétablissement de la relation :** Rétablissez la relation "one-to-one" entre les tables
+ et mettez à jour les données pour qu'elles correspondent à la relation d'origine.
+
+Ces exercices devraient vous aider à vous familiariser avec les relations "one-to-one" en SQL,
+ ainsi qu'avec l'utilisation de clés étrangères et de jointures. N'hésitez pas à personnaliser 
+ces exercices en ajoutant plus de données ou en modifiant les schémas de base de données 
+pour approfondir vos compétences.
+/***************************************************************************************************/
+Bien sûr, voici 10 exercices spécifiquement axés sur la création et la gestion de relations
+ "one-to-one" pour la base de données que vous avez décrite. Ces exercices vous aideront
+ à vous familiariser davantage avec la gestion des relations "one-to-one" en SQL.
+
+**Exercice 1:** Créez une table "Adresse" avec des colonnes pour stocker l'adresse
+ de chaque personne. Assurez-vous qu'il y a une relation "one-to-one" entre la table "Personnes" 
+et la table "Adresse".
+
+**Exercice 2:** Insérez des données de test dans la table "Adresse" pour chaque personne de la table
+ "Personnes". Assurez-vous que chaque personne a une adresse correspondante.
+
+**Exercice 3:** Modifiez la table "Personnes" pour inclure une colonne "email". Assurez-vous que 
+la relation "one-to-one" entre la table "Personnes" et la table "Adresse" reste intacte.
+
+**Exercice 4:** Supprimez l'adresse d'une personne spécifique dans la table "Adresse"
+ et assurez-vous que cela ne perturbe pas la relation "one-to-one".
+
+**Exercice 5:** Modifiez l'adresse d'une personne spécifique dans la table "Adresse"
+ et assurez-vous que la modification se reflète correctement dans la jointure avec 
+la table "Personnes".
+
+**Exercice 6:** Créez une table "Numéro_de_Téléphone" avec des colonnes pour stocker 
+les numéros de téléphone de chaque personne. Assurez-vous qu'il y a une relation 
+"one-to-one" entre la table "Personnes" et la table "Numéro_de_Téléphone".
+
+**Exercice 7:** Insérez des données de test dans la table "Numéro_de_Téléphone"
+ pour chaque personne de la table "Personnes". Assurez-vous que chaque personne a un numéro 
+de téléphone correspondant.
+
+**Exercice 8:** Supprimez le numéro de téléphone d'une personne spécifique dans la table 
+"Numéro_de_Téléphone" et assurez-vous que cela ne perturbe pas la relation "one-to-one".
+
+**Exercice 9:** Modifiez le numéro de téléphone d'une personne spécifique dans la table 
+"Numéro_de_Téléphone" et assurez-vous que la modification se reflète correctement 
+dans la jointure avec la table "Personnes".
+
+**Exercice 10:** Ajoutez une contrainte de clé étrangère entre la table "Personnes" 
+et la table "Adresse" pour garantir que chaque personne a une adresse correspondante. 
+Assurez-vous que cela fonctionne correctement.
+
+Ces exercices vous aideront à renforcer votre compréhension des relations "one-to-one"
+ en SQL et de la manière de les gérer efficacement dans une base de données.
+ Vous pouvez personnaliser ces exercices en ajoutant plus de détails ou en modifiant 
+le schéma de base de données selon vos besoins.

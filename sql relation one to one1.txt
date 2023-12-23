@@ -1,0 +1,33 @@
+Bien sûr ! Travailler sur des exercices de modélisation de relations one-to-one en SQL est un 
+excellent moyen d'améliorer vos compétences. Voici quelques exercices pour vous aider à pratiquer 
+la création de telles relations :
+
+1. **Créer une table "Personne" avec des informations de base (ID, nom, prénom, date de naissance)
+ et une table "Passeport" pour stocker les détails du passeport de chaque personne.
+ Assurez-vous qu'il y a une relation one-to-one entre les deux tables.
+
+2. **Construisez une base de données pour une bibliothèque. Créez une table "Livre"
+ et une table "Auteur". Chaque livre doit être lié à un seul auteur, et chaque auteur
+ peut avoir écrit plusieurs livres.
+
+3. **Imaginez une application de gestion d'employés. Créez une table "Employé" pour stocker 
+les informations de base sur les employés (ID, nom, poste) et une table "Coordonnées" 
+pour stocker les coordonnées de chaque employé (adresse, numéro de téléphone, adresse e-mail). 
+Assurez-vous qu'un employé est associé à une seule entrée de "Coordonnées".
+
+4. **Construisez une base de données pour un site de commerce électronique. 
+Créez une table "Utilisateur" pour stocker les informations d'inscription des utilisateurs 
+et une table "Profil" pour stocker des informations supplémentaires sur chaque utilisateur,
+ telles que l'adresse de livraison. Chaque utilisateur doit être associé à un seul profil.
+
+5. **Créez une base de données pour suivre les réservations de chambres d'hôtel. 
+Ayez une table "Client" pour stocker les informations sur les clients
+ et une table "Réservation" pour stocker les détails de chaque réservation, 
+y compris les dates et le numéro de chambre. Assurez-vous qu'un client
+ ne peut avoir qu'une seule réservation à la fois.
+
+En travaillant sur ces exercices, assurez-vous de comprendre comment créer des clés primaires, 
+des clés étrangères, et comment établir des contraintes d'intégrité référentielle pour maintenir 
+des relations one-to-one. Utilisez des commandes SQL telles que CREATE TABLE, ALTER TABLE, 
+et INSERT INTO pour mettre en œuvre ces relations et effectuer des opérations de requête 
+pour vous assurer que tout fonctionne correctement.

@@ -1,0 +1,47 @@
+Bien sûr, voici quelques exercices simples pour débutants pour vous aider à vous entraîner avec 
+MySQL :
+
+1. **Création d'une base de données et de tables** :
+   - Créez une base de données nommée "GestionnaireTaches".
+   - À l'intérieur de cette base de données, créez une table "Taches" avec les colonnes suivantes : 
+"id" (clé primaire, auto-incrémentée), "titre", "description", "date_de_creation".
+
+2. **Insertion de données** :
+   - Insérez quelques tâches fictives dans la table "Taches". Assurez-vous de remplir toutes les
+ colonnes.
+
+3. **Sélection de données** :
+   - Sélectionnez toutes les tâches de la table "Taches".
+   - Sélectionnez uniquement les tâches dont la date de création est antérieure à une date
+ spécifique.
+
+4. **Mise à jour de données** :
+   - Mettez à jour le titre et la description d'une tâche spécifique dans la table "Taches".
+   - Modifiez la date de création d'une tâche donnée.
+
+5. **Suppression de données** :
+   - Supprimez une tâche spécifique de la table "Taches" en utilisant son identifiant.
+
+6. **Filtrage et tri** :
+   - Sélectionnez toutes les tâches dont le titre contient un mot clé spécifique.
+   - Triez les tâches par ordre alphabétique du titre.
+
+7. **Agrégation de données** :
+   - Calculez le nombre total de tâches dans la table "Taches".
+   - Calculez la date la plus récente de création de tâche.
+
+8. **Jointures** :
+   - Créez une nouvelle table "Utilisateurs" avec les colonnes "id" (clé primaire, auto-incrémentée),
+ "nom" et "tache_id".
+   - Associez chaque utilisateur à une tâche de la table "Taches" en utilisant
+ la colonne "tache_id".
+   - Sélectionnez le nom de l'utilisateur et le titre de la tâche associée dans une seule requête.
+
+9. **Sauvegarde et restauration** :
+   - Sauvegardez votre base de données "GestionnaireTaches" dans un fichier SQL.
+   - Supprimez la base de données "GestionnaireTaches" et restaurez-la à partir du fichier
+ de sauvegarde.
+
+Ces exercices vous aideront à acquérir de l'expérience avec les opérations de base de données SQL.
+ N'hésitez pas à utiliser la documentation MySQL et à explorer davantage de concepts SQL au fur
+ et à mesure que vous progressez.

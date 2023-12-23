@@ -1,0 +1,34 @@
+Bien sûr, voici quelques exercices supplémentaires pour vous aider à pratiquer la création 
+de relations one-to-one en SQL :
+
+6. **Gestion des véhicules** : Créez une base de données pour une entreprise de location 
+de voitures. Créez une table "Véhicule" pour stocker les détails de chaque
+ véhicule (ID, modèle, immatriculation) et une table "Assurance" pour stocker les informations
+ sur l'assurance de chaque véhicule. Assurez-vous qu'un véhicule est associé à une seule entrée
+ d'assurance.
+
+7. **Système de billetterie** : Construisez une base de données pour un système de billetterie 
+de cinéma. Créez une table "Film" pour stocker les informations sur chaque film (ID, titre, genre) 
+et une table "Séance" pour stocker les horaires des projections de chaque film. 
+Assurez-vous qu'un film est lié à une seule entrée de séance.
+
+8. **Inventaire d'équipement** : Imaginez une application de suivi de l'inventaire d'équipement
+ pour une entreprise. Créez une table "Équipement" pour stocker les détails 
+de chaque équipement (ID, nom, description) et une table "Détail de l'état" pour enregistrer
+ l'état actuel de chaque équipement. Assurez-vous qu'un équipement est lié à un seul enregistrement
+ de l'état.
+
+9. **Gestion des licences** : Construisez une base de données pour gérer les licences de logiciels. 
+Créez une table "Logiciel" pour stocker les informations sur chaque logiciel (ID, nom, version) 
+et une table "Licence" pour stocker les détails de chaque licence attribuée.
+ Assurez-vous qu'un logiciel est associé à une seule licence.
+
+10. **Système de suivi des commandes** : Créez une base de données pour une entreprise 
+de commerce électronique. Concevez une table "Commande" pour stocker les informations 
+sur chaque commande passée par un client et une table "Facture" pour stocker les détails 
+de chaque facture générée pour une commande. Assurez-vous qu'une commande 
+est liée à une seule facture.
+
+En travaillant sur ces exercices supplémentaires, vous continuerez à renforcer vos compétences
+ en modélisation de relations one-to-one en SQL et à mieux comprendre comment mettre en œuvre
+ ces relations dans une base de données.

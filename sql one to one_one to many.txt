@@ -1,0 +1,46 @@
+Bien sûr, voici une liste complète d'exercices SQL avec la création de bases de données (BDD) 
+pour vous entraîner sur les relations one-to-one, one-to-many et l'utilisation de la commande 
+ALTER TABLE. Chaque exercice inclut des instructions sur la création des tables et les requêtes 
+SQL correspondantes. Assurez-vous d'avoir un système de gestion de base de données 
+(comme MySQL, PostgreSQL ou SQLite) installé pour exécuter ces exercices.
+
+**Exercice 1 : Relation One-to-One**
+
+Créez une base de données appelée "ExercicesRelations".
+
+1. Créez une table "Personne" avec les colonnes suivantes :
+   - IDPersonne (clé primaire)
+   - Nom
+   - Prénom
+
+2. Créez une table "CarteDIdentite" avec les colonnes suivantes :
+   - IDCarte (clé primaire)
+   - Numéro
+   - DateExpiration
+   - IDPersonne (clé étrangère référençant la table "Personne")
+
+**Exercice 2 : Relation One-to-Many**
+
+Utilisez la base de données "ExercicesRelations" créée dans l'exercice précédent.
+
+1. Ajoutez une table "Département" avec les colonnes suivantes :
+   - IDDépartement (clé primaire)
+   - NomDépartement
+
+2. Modifiez la table "Personne" pour inclure une colonne "IDDépartement" 
+(clé étrangère référençant la table "Département").
+
+**Exercice 3 : Modification de la Structure de Table**
+
+Utilisez toujours la base de données "ExercicesRelations".
+
+1. Ajoutez une colonne "Adresse" à la table "Personne" pour enregistrer l'adresse de chaque personne.
+
+2. Supprimez la colonne "DateExpiration" de la table "CarteDIdentite".
+
+
+
+Ces exercices devraient vous permettre de vous familiariser avec les relations one-to-one, 
+one-to-many,  ainsi qu'avec l'utilisation de la commande ALTER TABLE pour modifier 
+la structure des tables SQL. Assurez-vous de comprendre les concepts clés liés aux clés primaires
+ et étrangères pour résoudre ces exercices.

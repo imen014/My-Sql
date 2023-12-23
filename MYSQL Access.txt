@@ -1,0 +1,7 @@
+sahar : sahar123
+sahar@localhost
+mysql -u votre_nom_utilisateur -p : pour connecter -> mot de passe : sahar123
+CREATE USER 'sahar'@'localhost' IDENTIFIED BY 'sahar123'; : "pour creer un compte sans savoir mot de passe"
+GRANT ALL PRIVILEGES ON ma_base_de_donnees.* TO 'nouvel_utilisateur'@'localhost'; donner toutes les accées 
+pour sahar
+
